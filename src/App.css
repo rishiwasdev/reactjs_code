@@ -2,41 +2,36 @@
   text-align: center;
 }
 
-.text {
-  text-align: center;
-}
-.number {
-  text-align: right;
-}
-
-table {
-  margin: 0 auto; /*This centers the table horizontally */
-}
-td,
-th {
-  padding: 5px;
+/* Redux Tutorial Styling Vid 78 */
+.cart-wrapper {
+  height: 100px;
+  width: 500px;
   border: 1px solid black;
+  margin-left: 10%;
+}
+.item {
+  float: left;
+  width: 12 0px;
+  padding: 20px;
+  /* height: 70px; no effect*/
+}
+.add-to-cart img {
+  width: 100px;
+  position: absolute;
+  top: 1%;
+  right: 1%;
+}
+.img-wrapper img {
+  width: 100px;
+  margin-top: -10px;
+}
+.btn-wrapper button {
+  color: white;
+  background-color: red;
+  border: 0px;
+  padding: 10px;
+  border-radius: 4px;
+  box-shadow: #333 0px 1px 5px;
 }
 
-.navbar {
-  text-align: right;
-}
-.navbar li {
-  padding: 10px 8px;
-  display: inline-block;
-  font-size: larger;
-}
-.navbar .active {
-  color: green;
-  background-color: lightgreen;
-}
-.navbar_link {
-  color: black;
-  text-decoration: none;
-}
-.navbar_link:hover {
-  background-color: lightgreen;
-  color: darkgreen;
-  font-weight: bold;
-  text-decoration: underline;
-}
+/* Redux Tutorial Styling Ends */

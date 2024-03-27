@@ -6,11 +6,13 @@ import React from "react";
  * It doesn't belong to the component state.
  * Only one store per application.
  * Data is unideirectional. Check diagram: 002. Vid 74 - Redux Architecture.png
+ * 2 components use props to communicate mutually
+ * Redux also use props to communicate
  */
 function MyApp() {
   return (
     <div>
-      <h2>Hello World!</h2>
+      <h2>App Component!</h2>
     </div>
   );
 }

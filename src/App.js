@@ -67,7 +67,9 @@ import "./App.css";
 /* ----------------- Advanced -----------------*/
 // import MyApp from "./my_app_5_advanced_contextAPI/Vid_072_App_contextApiWithExamples";
 /* ----------------- REDUX -----------------*/
-import MyApp from "./my_app_6_redux/Vid_073_76_App_redux";
+// import MyApp from "./my_app_6_redux_theory/Vid_076_App_propsInComp";
+// import MyApp from "./my_app_7_redux/Vid_077_Redux_file_folder_structure";
+import MyApp from "./my_app_7_redux/Vid_078_App_Redux_Design_addToCart";
 /* ----------------- NEXT TOPIC NAME -----------------*/
 
 function App() {
