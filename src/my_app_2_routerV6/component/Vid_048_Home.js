@@ -1,4 +1,4 @@
-import MyHome from "../component_general/MyHome";
+import MyHome from "../../component_general/MyHome";
 
 //Using basic home page for learning
 function Home() {

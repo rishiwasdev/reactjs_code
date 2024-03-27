@@ -1,4 +1,4 @@
-import MyAbout from "../component_general/MyAbout";
+import MyAbout from "../../component_general/MyAbout";
 
 //Using basic about page for learning
 function About() {

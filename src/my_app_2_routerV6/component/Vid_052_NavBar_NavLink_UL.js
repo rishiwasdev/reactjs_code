@@ -1,5 +1,5 @@
 import { NavLink } from "react-router-dom";
-import style from "../my_css/my_style.module.css";
+import style from "../../my_css/my_style.module.css";
 // import "../my_css/my_style.module.css"; // NOT WORKING
 
 /** DO NOT give classname inside <Link ...> tag, may cause errors

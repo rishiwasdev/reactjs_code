@@ -1,5 +1,5 @@
 import React from "react";
-import "../my_css/Vid_032_style1.css";
+import "../../my_css/Vid_032_style1.css";
 function User(prop) {
   return (
     <div>

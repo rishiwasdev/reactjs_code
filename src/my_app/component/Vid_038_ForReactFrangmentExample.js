@@ -1,5 +1,5 @@
 import { Fragment } from "react";
-import "../my_css/Vid_032_style1.css";
+import "../../my_css/Vid_032_style1.css";
 
 function Cols(prop) {
   return (
