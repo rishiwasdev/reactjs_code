@@ -1,0 +1,37 @@
+import { NavLink } from "react-router-dom";
+
+function NavBar() {
+  return (
+    <div style={{ backgroundColor: "beige" }}>
+      <ul className="navbar" style={{ display: "block" }}>
+        <li>
+          <NavLink className="navbar_link" to="/">
+            Home
+          </NavLink>
+        </li>
+        <li>
+          <NavLink className="navbar_link" to="/login">
+            Login
+          </NavLink>
+        </li>
+        <li>
+          <NavLink className="navbar_link" to="/about">
+            About
+          </NavLink>
+        </li>
+        <li>
+          <NavLink className="navbar_link" to="/logout">
+            Logout
+          </NavLink>
+        </li>
+        <li>
+          <NavLink className="navbar_link" to="/nonexist">
+            A-Non-Existing-Page
+          </NavLink>
+        </li>
+      </ul>
+    </div>
+  );
+}
+
+export default NavBar;

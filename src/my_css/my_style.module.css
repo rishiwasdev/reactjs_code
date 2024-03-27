@@ -1,0 +1,15 @@
+.primary {
+  background-color: black;
+  color: green;
+}
+
+
+span {
+  font-size: 20px;
+  font-weight: bold;
+  color: navy;
+  background-color: rgb(107, 104, 104);
+  padding: 20px;
+  margin-bottom: 20px;
+  line-height: 70px;
+}
