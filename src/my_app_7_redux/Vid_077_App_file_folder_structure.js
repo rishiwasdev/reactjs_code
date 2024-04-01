@@ -1,17 +1,18 @@
 /**Video 77: Redux File & Folder Structure - THEORY PART*/
 
-/** Creating File & Folder Structure for Redux (as below):
+/** React Redux File & Folder Structure:
  *  app.js
  *  > components
  *        > ...component js files
- *  > container
+ *  > containers
  *        > ...container js files
- *  > service
+ *  > services
  *      > constants js file
  *      > actions
- *          > ...action js files
+ *          > ...action js file(s)
  *      > reducers
- *          > ...reducer js files, index or root_reducer js
+ *          > index or root_reducer js
+ *          > ...reducer js file(s)
  *
  * We will use structure created here in further videos/code.
  */

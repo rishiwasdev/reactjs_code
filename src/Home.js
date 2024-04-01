@@ -7,7 +7,7 @@ function Home() {
   let img_cart =
     "https://img.freepik.com/premium-vector/shopping-carts-shopping-malls-placing-products-payment_68708-2172.jpg?w=1060";
   img_cart =
-    "https://cdn4.vectorstock.com/i/1000x1000/31/18/shopping-cart-icon-with-plus-sign-vector-20053118.jpg";
+    "https://images.pexels.com/photos/7195232/pexels-photo-7195232.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2";
 
   return (
     <div>

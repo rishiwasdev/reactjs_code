@@ -1,5 +1,5 @@
 import "./App.css";
-// This file is treated as main App.js. Had to separate for learning cleanly
+/** Below files (most of these) can be used as main 'App.js'. Separated them for learning topic by topic. */
 /* ----------------- ReactJS BASICS -----------------*/
 // import MyApp from "./my_app/Vid_008_App";
 // import MyApp from "./my_app/Vid_009_App";
@@ -68,8 +68,16 @@ import "./App.css";
 // import MyApp from "./my_app_5_advanced_contextAPI/Vid_072_App_contextApiWithExamples";
 /* ----------------- REDUX -----------------*/
 // import MyApp from "./my_app_6_redux_theory/Vid_076_App_propsInComp";
-// import MyApp from "./my_app_7_redux/Vid_077_Redux_file_folder_structure";
-import MyApp from "./my_app_7_redux/Vid_078_App_Redux_Design_addToCart";
+// import MyApp from "./my_app_7_redux/Vid_077_App_file_folder_structure";
+// import MyApp from "./my_app_7_redux/Vid_078_80_App_Design_action_reducer";
+// import MyApp from "./my_app_7_redux/Vid_081_App_Container";
+// import MyApp from "./my_app_7_redux/Vid_082_App_index_Provider_completeFlow"; // change accordingly in src/index.js
+// import MyApp from "./my_app_7_redux/Vid_083_1_App_AddItemsToCart"; // change accordingly in src/index.js
+// import MyApp from "./my_app_7_redux/Vid_083_2_App_ShareDataBtwnComps"; // no changes in src/index.js
+// import MyApp from "./my_app_7_redux/Vid_084_App_removeFromCart"; // change accordingly in src/index.js
+/* ----------------- Project - EComm - NO REDUX -----------------*/
+// RESET src/index.js, remove all changes
+import MyApp from "./my_app_8_projEcommDashboard/Vid_086_App_EcommProj_start"; // Vid_085_EcommProj_setup is just setup
 /* ----------------- NEXT TOPIC NAME -----------------*/
 
 function App() {
