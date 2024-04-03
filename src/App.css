@@ -2,58 +2,8 @@
   text-align: center;
 }
 
-/* ---------- Redux Tutorial Styling Vid 78 ---------- */
-.cart-wrapper {
-  height: 100px;
-  width: 500px;
-  border: 1px solid black;
-  margin-left: 10%;
+/* ---------- E-Comm Project Styling Vid 85 onwards ---------- */
+.nav_bar_wrapper a {
+  padding-left: 20px;
 }
-.item {
-  float: left;
-  width: 12 0px;
-  padding: 14px;
-  /* height: 70px; no effect*/
-}
-.add-to-cart img {
-  width: 75px;
-  position: absolute;
-  top: 2%;
-  right: 2%;
-  border-radius: 40px;
-}
-.img-wrapper img {
-  width: 100px;
-  margin-top: -10px;
-}
-.btn-wrapper button {
-  color: white;
-  background-color: rebeccapurple;
-  border: 0px;
-  padding: 3px;
-  border-radius: 10px;
-  box-shadow: #333 0px 1px 5px;
-  width: 80px;
-}
-/* ---------- Redux Tutorial Styling Vid 83_1 ---------- */
-.cart-count {
-  position: absolute;
-  right: 3.9%;
-  top: 4%;
-  z-index: 1;
-  background-color: yellow;
-  padding: 2px;
-  width: 23px;
-  height: 25px;
-  border-radius: 50%;
-  color: green;
-  font-size: 13px;
-  font-weight: bolder;
-}
-/* ---------- Redux Tutorial Styling Vid 83_1 ---------- */
-button.remove-cart-btn {
-  background-color: red;
-  margin: 8px;
-  width: 80px;
-}
-/* ---------- Redux Tutorial Styling Ends ---------- */
+/* ---------- E-Comm Project Styling Ends ---------- */

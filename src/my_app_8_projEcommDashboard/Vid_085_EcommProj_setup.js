@@ -11,12 +11,8 @@ import "../App.css";
  * Added below in index.js
  * import "bootstrap/dist/css/bootstrap.min.css";
  */
-function MyApp() {
-  return (
-    <div className="App">
-      <h1>E-Comm Project</h1>
-    </div>
-  );
-}
 
-export default MyApp;
+// JUST DUMMY CODE
+export default function MyApp() {
+  return <div>DUM-DUM</div>;
+}
