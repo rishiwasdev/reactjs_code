@@ -77,7 +77,7 @@ import "./App.css";
 // import MyApp from "./my_app_7_redux/Vid_084_App_removeFromCart"; // change accordingly in src/index.js
 /* ----------------- Project - EComm - NO REDUX -----------------*/
 // RESET src/index.js, remove all changes.  // Vid_085_EcommProj_setup is just setup, so from Vid 86 below.
-import MyApp from "./my_app_8_projEcommDashboard/vid_085_87_start/Vid_086_100_App";
+import MyApp from "./my_app_8_projEcommDashboard/Vid_086_100_App";
 /* ----------------- NEXT TOPIC NAME -----------------*/
 
 function App() {

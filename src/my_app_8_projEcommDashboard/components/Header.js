@@ -8,7 +8,7 @@ function Header() {
 
   function logout() {
     localStorage.clear();
-    navigate("/register");
+    navigate("/login");
   }
 
   return (
@@ -22,8 +22,10 @@ function Header() {
               // if LOGGED-IN
               localStorage.getItem("user-info") ? (
                 <>
+                  <Link to="/">Product List</Link>
                   <Link to="/add">Add Product</Link>
                   <Link to="/update">Update Product</Link>
+                  <Link to="/search">Search Product</Link>
                 </>
               ) : (
                 // if NOT LOGGED-IN

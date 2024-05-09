@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import Header from "./Header";
 
+// Functionality: VIDEO 91
 function Register() {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
@@ -17,7 +18,7 @@ function Register() {
   async function signUp() {
     let creds = { name, email, password };
     // console.info(creds);
-    let resultObj = await fetch("http://localhost:8080/users/register", {
+    let resp = await fetch("http://localhost:8080/users/register", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -25,8 +26,7 @@ function Register() {
       },
       body: JSON.stringify(creds),
     });
-    let result = await resultObj.json();
-    console.log(result);
+    let result = await resp.json(); // console.log(result);
     localStorage.setItem("user-info", JSON.stringify(result.data));
     navigate("/add");
   }

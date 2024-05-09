@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 
 // for class components: render() { return(...) }.
-// i.e. return (...) inside render()
+// render() function returns a component/Fragment
 class User extends Component {
   render() {
     return (

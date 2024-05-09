@@ -6,4 +6,19 @@
 .nav_bar_wrapper a {
   padding-left: 20px;
 }
+.update {
+  cursor: pointer;
+  background-color: darkgreen;
+  color: white;
+  padding: 4px;
+  border-radius: 5px;
+}
+.delete {
+  cursor: pointer;
+  background-color: grey;
+  color: white;
+  padding: 4px;
+  border-radius: 5px;
+}
+
 /* ---------- E-Comm Project Styling Ends ---------- */

@@ -8,7 +8,7 @@ function Protected(props) {
   useEffect(() => {
     if (!localStorage.getItem("user-info")) {
       // NOT LOGGED-IN?
-      navigate("/register"); // if LOGGED-OUT user enters bookmarked/add/update uri, redirect to register
+      navigate("/login"); // if LOGGED-OUT user enters bookmarked/add/update uri, redirect to register
     }
   }, [navigate]); // empty array => runs 1 time
 

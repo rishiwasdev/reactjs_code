@@ -15,11 +15,14 @@ function MyApp() {
       {/* BELOW: calling function with brackets {apple()} will cause infinite calls, because
       it gets called on first time page rendering, and keeps getting rendered over and again.
       It WON'T get called on clicking the button.*/}
-      <button onClick={test}>Click Test</button>
+      <button onClick={test}>Click-1</button>
       <br />
       <br />
       {/* Defining function inline i.e. Arrow Function, called on event. 
       States & Props in next tutorials.*/}
+      <button onClick={() => test()}>Click-2</button>
+      <br />
+      <br />
       <button onClick={() => alert("ALERT CALLED.")}>ALERT</button>
       <br />
       <br />

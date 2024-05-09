@@ -1,11 +1,12 @@
 import React, { Component } from "react";
 
 /*** this code CAN BE DIRECTLY USED AS App.js.
- * e.g. class MyApp extends Component { render() { return ( <div> ... </div> ); } }
+ * e.g. class App extends Component { render() { return ( <div> ... </div> ); } }
  */
 class MyApp extends Component {
+  // constructor mandatory
   constructor() {
-    super(); // mandatory
+    super(); // super mandatory
 
     // BELOW, state is defined like a JS object
     this.state = {
@@ -36,7 +37,7 @@ class MyApp extends Component {
           Name: <b>{this.state.myName}</b>
           <br />
           <button onClick={() => this.changeName()}>Change Name</button>
-          {/* THIS is HOW to CALL a FUNCTION in a class component*/}
+          {/* THIS is HOW to always CALL a FUNCTION in a class component*/}
         </div>
         <br />
         <div>
